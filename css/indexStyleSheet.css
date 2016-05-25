@@ -1,0 +1,56 @@
+/*This CSS3 style sheet servesas a local style sheet for index.htm.
+
+  Designed by: Michael Costa
+  On:12-13-2015
+*/
+
+
+a#leftButton{                                           /*settings for slideshow "previous" button*/
+     float:left;
+     margin-left:2px;
+     margin-right:10px;
+     text-align:left;
+     font-family:ebrima;
+     font-weight:bold;
+     color:black;
+     background-color:none;
+     text-transform:uppercase;
+}
+div#slidePosition{
+     float:center;
+     width:900px;
+     height:400px;
+     margin:auto;
+}
+img#slide{
+     float:center;
+     width:900px;
+     height:400px;
+     border-style:outline;
+     border-width:10px;
+     border-color:#FFFFFF;
+     margin:auto;
+     /*margin-left:20px;
+     margin-top:20px;
+     margin-right:10px;*/
+}
+a#rightButton{                                          /*settings for slideshow "next" button*/
+     float:right;
+     margin-left:10px;
+     margin-right:2px;
+     text-align:right;
+     font-family:ebrima;
+     font-weight:bold;
+     color:black;
+     background-color:none;
+     text-transform:uppercase;
+}
+/*img#indexMain{
+     float:none;
+     width:600px;
+     max-width:100%;
+     height:auto;
+     display:block;
+     margin:none;
+}*/     
+

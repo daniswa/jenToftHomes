@@ -1,0 +1,179 @@
+/*This CSS3 style sheet serves as a local style sheet for reviews.html.
+
+  Designed by: Michael Costa
+  On:12-13-2015
+*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+section{
+     font-family:ebrima;
+     font-weight:bold;
+     color:black;
+     background-color:none;
+     text-align:center;
+}
+
+table#reviewTable{
+    width:80%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+p.stars{
+    margin:none;
+    font-size:150%;
+    color:#000000;
+}
+
+tr.rHead{
+    border:outset;
+    border-bottom:none;
+    border-color:rgba(255,255,255,0.9);
+    border-width:1%;
+    border-radius:1%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    height:10%;
+}
+
+tr.rBody{
+    border:outset;
+    border-top:none;
+    border-color:rgba(255,255,255,0.9);
+    border-width:1%;
+    border-radius:1%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    height:10%;
+}
+
+td.headL{
+    width:50%;
+    text-align:left;
+    padding:2% 10% 2% 10%;
+}
+
+td.headR{
+    width:50%;
+    text-align:right;
+    padding:2% 10% 2% 10%;
+}
+
+td.review{
+    width:100%;
+    text-align:left;
+    padding:0 15% 2% 15%;
+}
+
+button.reviewButton{
+    width:30%;
+    height:20%;
+    background-color:#7777FF;
+    border:solid 1px;
+    border-color:#000000;
+    border-radius:5px;
+    color:#000000;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+/*button.previewButton{
+    width:30%;
+    height:20%;
+    background-color:#7777FF;
+    border:solid 1px;
+    border-color:#000000;
+    border-radius:5px;
+    color:#000000;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}*/
+
+button.submitButton{
+    width:30%;
+    height:20%;
+    background-color:#7777FF;
+    border:solid 1px;
+    border-color:#000000;
+    border-radius:5px;
+    color:#000000;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+button.returnButton{
+    width:30%;
+    height:20%;
+    background-color:#7777FF;
+    border:solid 1px;
+    border-color:#000000;
+    border-radius:5px;
+    color:#000000;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+div.stars{
+  float:center;
+}  
+
+fieldset.rating{
+  border: none;
+  float:center;
+  margin-right:40%;
+}
+
+fieldset.rating > input{
+  display:none;
+}
+
+fieldset.rating > label:after{
+  margin:5px;
+  font-size:150%;
+  font-family:FontAwesome;
+  display:inline-block;
+  content:"\f005";
+}
+
+fieldset.rating > label{
+  text-align:center;
+  color: #333333;
+  float:right;
+  margin:auto;
+}
+/****** &#9733 and &#9734 ******/
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+fieldset.rating > input:checked ~ label, /* show gold star when clicked */
+fieldset.rating:not(:checked) > label:hover, /* hover current star */
+fieldset.rating:not(:checked) > label:hover ~ label{color:#FFED85;} /* hover previous stars in list */
+
+fieldset.rating > input:checked + label:hover, /* hover current star when changing rating */
+fieldset.rating > input:checked ~ label:hover,
+fieldset.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+fieldset.rating > input:checked ~ label:hover ~ label{color:#FFED85;}

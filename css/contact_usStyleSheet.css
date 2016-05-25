@@ -1,0 +1,111 @@
+/*This CSS3 style sheet servesas a local style sheet for contact_us.htm.
+
+  Designed by: Michael Costa
+  On:12-13-2015
+*/
+
+
+h3#contactWelcome{
+     font-family:ebrima;
+     font-weight:bold;
+     color:black;
+     background-color:none;
+     text-align:left;
+     margin-left:none;
+     margin-top:30px;
+     margin-bottom:50px;
+     margin-right:none;
+}
+div.contactPosition{
+     float:left;
+     width:1000px;
+     display:in-line-block;
+     position:relative;
+}
+div#contactSubmit{
+     float:left;
+     width:200px;
+     display:in-line-block;
+     position:relative;
+     margin-left:100px;
+}
+p.contactForm{
+     float:left;
+     display:in-line;
+     width:200px;
+     font-family:ebrima;
+     font-weight:normal;
+     color:black;
+     background-color:none;
+     text-align:left;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+input.contactElements{
+     float:left;
+     display:in-line;
+     width:155px;
+     background-color:none;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+input#areaCode{
+     float:left;
+     width:40px;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+input#prefix{
+     float:left;
+     width:40px;
+     margin-left:2px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+input#suffix{
+     float:left;
+     width:59px;
+     margin-left:2px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+select#contactElements{
+     float:left;
+     width:155px;
+     background-color:none;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+textarea.contactComment{
+     float:left;
+     width:155px;
+     height:50px;
+     background-color:none;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+div#fieldRequire{
+     float:left;
+     display:in-line;
+     width:200px;
+     font-family:ebrima;
+     font-weight:normal;
+     color:black;
+     background-color:none;
+     text-align:left;
+     margin-left:20px;
+     margin-top:10px
+     margin-bottom:10px;
+}
+form.emailForm{
+     float:none;
+     width:500px;
+     max-width:100%;
+     height:auto;
+     display:block;
+}

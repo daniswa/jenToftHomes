@@ -1,0 +1,333 @@
+/*This CSS3 style sheet serves as a global style sheet.
+  It mainly controls the background images and background concepts of the overall pages.
+  
+  Designed by: Michael Costa
+  On:12-13-2015
+*/
+
+
+/*background section style settings*/
+body{
+    background-image:url("remax_image_head1.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    z-index:0;
+}
+
+div.container-fluid{
+     padding-left:0;
+}
+
+/*navigation bar section style settings*/
+button.btn-primary{
+    background-color:rgba(255,255,255,0.8);
+    border:none;
+    margin:0;
+    padding:10%;
+    width:100%;
+    font-size:14px;
+    text-transform:uppercase;
+    color:#000000;
+}
+
+div#navBarMobile{
+    position:fixed;
+    z-index:7;
+}
+
+div.container-fluid{
+    padding-left:0;
+}
+
+div#navBarDesk{
+    float:left;
+    width:15%;
+    height:100%;
+    margin-top:0.5%;
+    margin-left:0;
+    margin-right:0.5%;
+    position:fixed;
+}
+
+/*ul.listBox{
+    width:100%;
+    height:100%;
+    position:fixed;
+    display:block;
+    background-color:rgba(255,255,255,0.6);
+    border-left:none;
+    border-top:outset;
+    border-right:outset;
+    border-bottom:outset;
+    border-color:rgba(255,255,255,0.9);
+    border-width:1%;
+    border-radius:1%;
+    margin-top:1%;
+    margin-left:0;
+    margin-right:0.5%;
+    margin-bottom:none;
+    z-index:1
+}*/
+
+ul{
+    list-style-type:none;
+    display:block;
+    text-align:right;
+    font-family:ebrima;
+    font-weight:bold;
+    color:#000000;
+    text-transform:uppercase;
+    margin:0;
+    padding:0;
+}
+
+ul a{
+    display:block;
+    /*background:linear-gradient(to left,rgba(128,128,255,1),rgba(128,128,255,0.5));*/
+    color:#000000;
+    padding:1% 5% 1% 1%;
+    margin:0;
+}
+
+a.link{
+    background-color:rgba(255,255,255,0.7);
+}
+
+a.navElement:hover{
+    background-color:#CCCCFF;
+}
+
+a:visited,a:active{
+    display:block;
+    font-family:ebrima;
+    font-weight:bold;
+    color:black;
+    background-color:none;
+    text-align:right;
+    /*padding:5%;*/
+    margin-left:1%;
+    margin-top:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+/*li{
+    display:block:
+    text-align:right;
+    font-family:ebrima;
+    font-weight:bold;
+    color:black;
+    border-style:solid;
+    border-color:#777777;
+    background-color:none;
+    margin-left:1%;
+    margin-top:5%;
+    margin-right:1%;
+    margin-bottom:5%;
+    text-decoration:none;
+    text-transform:uppercase;
+}*/
+
+div.sideBar{
+    width:15%;
+    height:100%;
+    position:fixed;
+    float:left;
+    background-color:rgba(255,255,255,0.6);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:rgba(255,255,255,0.8);
+    border-width:0.5%;
+    border-radius:none;
+    margin-top:0.5%;
+    margin-left:0;
+    margin-right:none;
+    margin-bottom:0;
+    padding:1%;
+    overflow:hidden;
+    z-index:1;
+}
+
+/*header section style settings*/
+div.headerBack{
+    width:80%;
+    float:right;
+    background-color:rgba(255,255,255,0.6);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:rgba(255,255,255,0.8);
+    border-width:0.5%;
+    border-radius:none;
+    margin-top:0.5%;
+    margin-left:1%;
+    margin-right:4%;
+    margin-bottom:0.5%;
+    padding:1%;
+    overflow:hidden;
+    z-index:1;
+}
+
+img#headPic{
+    float:left;
+    width:250px;
+    height:auto;
+    border:inset;
+    border-width:2%;
+    border-color:rgba(255,255,255,0.8);
+    max-width:100%;
+    margin:none;
+    display:block;
+    z-index:2;
+}
+img#logoPic{
+    float:left;
+    width:600px;
+    height:auto;
+    max-width:100%;
+    margin:none;
+    /*margin-top:10%;
+    margin-bottom:10%;*/
+    display:block;
+    z-index:2;
+}
+
+/*body section style settings*/
+section{
+    width:80%;
+    float:right;
+    background-color:rgba(255,255,255,0.6);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:rgba(255,255,255,0.8);
+    border-width:0.5%;
+    border-radius:none;
+    margin-top:0.5%;
+    margin-left:1%;
+    margin-right:4%;
+    margin-bottom:0.5%;
+    padding:1%;
+    overflow:hidden;
+    z-index:1;
+}
+
+div#contactAnimate{
+    background-color:rgba(255,255,255,0.6);
+    border-radius:5px 0 0 5px;
+    background-size:cover;
+    position:fixed;
+    right:0;
+    top:30%;
+    /*height:50%;*/
+    width:4%;
+    padding:1%;
+    -webkit-transition:width 1s;
+    transition:width 1s;
+}
+
+div#contactAnimate:hover{
+    width:7%;
+}
+
+img#contactLink{
+    /*margin:5%;*/
+    position:relative;
+    display:relative;
+    max-height:100%;
+    max-width:100%;
+    overflow:auto;
+    width:20px;
+    height:auto;
+}
+
+/*footer section style settings*/
+div.footerBack{
+    width:80%;
+    float:right;
+    background-color:rgba(255,255,255,0.6);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:rgba(255,255,255,0.8);
+    border-width:0.5%;
+    border-radius:none;
+    margin-top:0.5%;
+    /*margin-left:13%;*/
+    margin-right:4%;
+    margin-bottom:0.5%;
+    padding:1%;
+    overflow:hidden;
+    z-index:1;
+}
+div.footerFollow{
+    float:right;
+    display:in-line-block;
+    font-family:ebrima;
+    font-weight:bold;
+    color:black;
+    background-color:none;
+    text-align:right;
+    margin-left:none;
+    margin-top:none;
+    margin-right:none;
+    margin-bottom:20px;
+    padding:none;
+}
+div.footerLogos{
+    width:130px;
+    height:50px;
+    float:right;
+    display:in-line-block;
+    position:relative;
+    background-color:none;
+    margin-left:10px;
+    margin-top:40px;
+    margin-right:20px;
+    margin-bottom:0px;
+}
+img.iconLink{
+    max-width:100%;
+    height:40%;
+    display:block;
+    margin-left:none;
+    margin-top:2%;
+    margin-right:none;
+    margin-bottom:2%;
+    padding:none;
+}
+
+div.footerContact{
+    float:left;
+    display:in-line;
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    font-family:ebrima;
+    color:black;
+    text-align:left;
+}
+h2#followHead{
+    margin-top:10px;
+    margin-right:40px;
+    margin-bottom:10px;
+}
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+

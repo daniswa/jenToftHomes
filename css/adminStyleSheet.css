@@ -1,0 +1,107 @@
+/*This CSS3 style sheet servesas a local style sheet for index.htm.
+
+  Designed by: Michael Costa
+  On:12-13-2015
+*/
+
+
+div.welcome{
+    float:top;
+    background-color:rgba(255,255,255,0.8);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:#000000;
+    border-width:1%;
+    margin-top:0.5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0.5%;
+    padding:3%;
+    overflow:hidden;
+    text-align:center;
+    color:#000000;
+}
+
+div.reviewList{
+    float:top;
+    background-color:rgba(255,255,255,0.8);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:#000000;
+    border-width:1%;
+    margin-top:0.5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0.5%;
+    padding:3%;
+    overflow:hidden;
+    text-align:center;
+    color:#000000;
+}
+
+div.blogList{
+    float:top;
+    background-color:rgba(255,255,255,0.8);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:local;
+    background-size:70%;
+    border:outset;
+    border-color:#000000;
+    border-width:1%;
+    margin-top:0.5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0.5%;
+    padding:3%;
+    overflow:hidden;
+    text-align:center;
+    color:#000000;
+}
+
+hr{
+    color:#000000;
+}
+
+th{
+    text-align:center;
+}
+
+td{
+    text-align:left;
+}    
+
+div.reviewhead{
+    margin-left:10%;
+    margin-top:2%;
+    margin-right:10%;
+    margin-bottom:2%;
+}
+
+div.userStars{
+
+}
+
+div.userName{
+
+}
+
+div.userLocation{
+
+}
+
+div.userDate{
+    float:right;
+}
+
+div.userReview{
+    float:left;
+    margin-left:20%;
+    margin-top:2%;
+}
